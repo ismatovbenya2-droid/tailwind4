@@ -230,6 +230,9 @@
   .top-\[170vh\] {
     top: 170vh;
   }
+  .right-0 {
+    right: 0;
+  }
   .right-10 {
     right: calc(var(--spacing) * 10);
   }
@@ -392,6 +395,9 @@
   .w-\[35px\] {
     width: 35px;
   }
+  .w-\[55\%\] {
+    width: 55%;
+  }
   .w-\[90px\] {
     width: 90px;
   }
@@ -552,11 +558,23 @@
   .bg-\[\#F7943D\] {
     background-color: #F7943D;
   }
+  .bg-\[\#FACC15\] {
+    background-color: #FACC15;
+  }
   .bg-white {
     background-color: var(--color-white);
   }
+  .object-contain {
+    object-fit: contain;
+  }
   .object-cover {
     object-fit: cover;
+  }
+  .object-left {
+    object-position: left;
+  }
+  .object-right {
+    object-position: right;
   }
   .p-5 {
     padding: calc(var(--spacing) * 5);
@@ -569,6 +587,9 @@
   }
   .px-7 {
     padding-inline: calc(var(--spacing) * 7);
+  }
+  .px-10 {
+    padding-inline: calc(var(--spacing) * 10);
   }
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
@@ -619,6 +640,9 @@
   }
   .text-\[20px\] {
     font-size: 20px;
+  }
+  .text-\[26px\] {
+    font-size: 26px;
   }
   .text-\[28px\] {
     font-size: 28px;
@@ -805,6 +829,11 @@
       width: calc(var(--spacing) * 9);
     }
   }
+  .md\:w-\[45\%\] {
+    @media (width >= 48rem) {
+      width: 45%;
+    }
+  }
   .md\:w-\[50px\] {
     @media (width >= 48rem) {
       width: 50px;
@@ -923,6 +952,11 @@
   .md\:py-28 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 28);
+    }
+  }
+  .md\:py-32 {
+    @media (width >= 48rem) {
+      padding-block: calc(var(--spacing) * 32);
     }
   }
   .md\:pt-20 {
